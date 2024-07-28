@@ -71,7 +71,7 @@ export default class PropertyPrunerModal extends Modal {
 			await this.app.fileManager.processFrontMatter(
 				file,
 				(frontmatter) => {
-					if (frontmatter[propertyName]) {
+					if (frontmatter[propertyName] !== undefined) {
 						delete frontmatter[propertyName];
 						numPruned++;
 					}
