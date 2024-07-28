@@ -1,0 +1,15 @@
+/* src/obsidian/styles.css */
+.property-pruner-input {
+  width: calc(100% - 30px);
+}
+.property-pruner-modal {
+  min-height: max-content;
+  max-width: 325px;
+}
+.property-pruner-text {
+  color: var(--text-muted);
+  font-size: var(--font-small);
+  margin-top: 8px;
+  margin-left: 4px;
+}
+/*# sourceMappingURL=data:application/json;base64,ewogICJ2ZXJzaW9uIjogMywKICAic291cmNlcyI6IFsiLi4vc3JjL29ic2lkaWFuL3N0eWxlcy5jc3MiXSwKICAic291cmNlc0NvbnRlbnQiOiBbIi5wcm9wZXJ0eS1wcnVuZXItaW5wdXQge1xuXHR3aWR0aDogY2FsYygxMDAlIC0gMzBweCk7XG59XG5cbi5wcm9wZXJ0eS1wcnVuZXItbW9kYWwge1xuXHRtaW4taGVpZ2h0OiBtYXgtY29udGVudDtcblx0bWF4LXdpZHRoOiAzMjVweDtcbn1cblxuLnByb3BlcnR5LXBydW5lci10ZXh0IHtcblx0Y29sb3I6IHZhcigtLXRleHQtbXV0ZWQpO1xuXHRmb250LXNpemU6IHZhcigtLWZvbnQtc21hbGwpO1xuXHRtYXJnaW4tdG9wOiA4cHg7XG5cdG1hcmdpbi1sZWZ0OiA0cHg7XG59XG4iXSwKICAibWFwcGluZ3MiOiAiO0FBQUE7QUFDQztBQUFBO0FBR0Q7QUFDQztBQUNBO0FBQUE7QUFHRDtBQUNDO0FBQ0E7QUFDQTtBQUNBO0FBQUE7IiwKICAibmFtZXMiOiBbXQp9Cg== */

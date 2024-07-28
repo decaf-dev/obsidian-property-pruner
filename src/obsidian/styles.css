@@ -1,0 +1,15 @@
+.property-pruner-input {
+	width: calc(100% - 30px);
+}
+
+.property-pruner-modal {
+	min-height: max-content;
+	max-width: 325px;
+}
+
+.property-pruner-text {
+	color: var(--text-muted);
+	font-size: var(--font-small);
+	margin-top: 8px;
+	margin-left: 4px;
+}
