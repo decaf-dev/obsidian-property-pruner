@@ -24,6 +24,8 @@ export default class PropertyPrunerModal extends Modal {
 			if (!propertyName) return;
 
 			try {
+				this.close();
+
 				new Notice(
 					`Property Pruner - Pruning property: ${propertyName}...`
 				);
@@ -33,7 +35,6 @@ export default class PropertyPrunerModal extends Modal {
 				new Notice(
 					`Property Pruner - Pruned property: ${propertyName} from ${result} files`
 				);
-				this.close();
 			} catch (err) {
 				new Notice(
 					`Property Pruner - Failed to prune property: ${propertyName}`
