@@ -10,8 +10,6 @@ This is a plugin that allows you to delete a property from markdown files in you
 4. Click **Add beta plugin**
 5. Enter the repository url: **https://github.com/decaf-dev/obsidian-property-pruner**
 6. Click **Add plugin**
-7. Navigate to the community plugins list
-8. Enable **Property Pruner**
 
 ## Usage
 
